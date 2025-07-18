@@ -294,10 +294,9 @@ background-color: #00ffd5;
 }
 
 /*  ABOUT CSS */
-
 .section.about {
   padding: 40px 20px;
-  margin-top: -250px;
+  margin-top: -8vw;         
   max-width: 1200px; 
   margin-left: auto;
   margin-right: auto;
@@ -370,8 +369,10 @@ background-color: #00ffd5;
   0% { opacity: 0; transform: translateY(30px) scale(0.95); }
   100% { opacity: 1; transform: translateY(0) scale(1); }
 }
-
 @media screen and (max-width: 768px) {
+  .section.about {
+    margin-top: -5vw;      
+  }
   .logo { width: 200px; height: 200px; }
   .cube, .face { width: 160px; height: 160px; font-size: 1rem; }
   .MainHeading-div h1 { font-size: 1.8rem; }
@@ -379,7 +380,6 @@ background-color: #00ffd5;
   .MERN-HeadDiv, .section.projects h2, .section.about h2, .section.contact h2 { font-size: 2rem; }
   .card { width: 140px; font-size: 0.9rem; padding: 15px 18px; }
 }
-
 .MainHeading-div h1 span,
 .MainHeading-div h2 span {
   opacity: 0;
@@ -394,8 +394,10 @@ background-color: #00ffd5;
     transform: translateY(0);
   }
 }
-
 @media screen and (max-width: 480px) {
+  .section.about {
+    margin-top: -2vw;         
+  }
   .cube, .face { width: 130px; height: 130px; font-size: 0.85rem; }
   .MainHeading-div h1 { font-size: 1.5rem; }
   .MainHeading-div h2 { font-size: 1rem; }
@@ -489,15 +491,15 @@ background-color: #00ffd5;
   padding: 60px 20px;
   font-family: 'Segoe UI', sans-serif;
   text-align: center;
-  animation: fadeIn 1s ease forwards; /* Matched animation */
+  animation: fadeIn 1s ease forwards; 
 }
 
 .minor-projects-title {
   font-size: 2.5rem;
   margin-bottom: 40px;
-  color: #00ffe0; /* Matches landing-projects-title color */
+  color: #00ffe0; 
   text-shadow: 0 0 10px #00ffe0;
-  animation: slideDown 1s ease forwards; /* Matched animation */
+  animation: slideDown 1s ease forwards; 
 }
 
 .minor-projects-list {
@@ -511,11 +513,11 @@ background-color: #00ffd5;
 }
 
 .minor-project-card {
-  background: linear-gradient(145deg, #1a1a1a, #2a2a2a); /* Unified gradient */
-  border: 2px solid #00ffd5; /* Unified border style */
+  background: linear-gradient(145deg, #1a1a1a, #2a2a2a); 
+  border: 2px solid #00ffd5; 
   border-radius: 14px;
   padding: 25px 30px;
-  text-align: center; /* Consistent alignment */
+  text-align: center; 
   position: relative;
 }
 @property --angle {
@@ -870,15 +872,13 @@ background-color: #00ffd5;
   position: absolute;
   inset: 0;
   border-radius: inherit;
-  padding: 3px; /* border thickness */
+  padding: 3px; 
   background: conic-gradient(
     from var(--angle),
     #ff595e, #ffca3a, #8ac926, #1982c4, #6a4c93, #ff6700, #ff595e
   );
   animation: spin 4s linear infinite;
   z-index: 1;
-
-  /* Mask so only border area shows */
   -webkit-mask:
     linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
@@ -917,7 +917,7 @@ background-color: #00ffd5;
   animation: spin 4s linear infinite;
   z-index: 0;
 
-  /* Mask to only show blurred border area */
+
   -webkit-mask:
     linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
@@ -948,7 +948,7 @@ background-color: #00ffd5;
   font-size: 40px;
 }
 
-/* Responsive overrides */
+/* Responsive  */
 @media (max-width: 900px) {
   .major-project-card {
     padding: 20px 16px;
