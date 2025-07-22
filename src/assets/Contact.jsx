@@ -3,29 +3,16 @@ import React from "react";
 export const ContactUs = () => {
   return (
     <>
-    <hr className="Footer-Line"></hr>
+      <hr className="Footer-Line"></hr>
       <div className="contact-container">
         <h1 className="contact-title">Contact Us</h1>
 
         <div className="contact-content">
           <ul className="contact-list">
-              <li className="contact-item">
-              <span className="contact-label">Our Website</span>
-              <a 
-                href="https://www.thehimalayandevs.com"
-                className="contact-link"
-              >
-                <img
-                  src="https://i.ibb.co/ynWFqg0r/Himalayan-Dev-logo.png"
-                  alt="Instagram"
-                  className="contact-icon"
-                />
-              </a>
-            </li>
-            
+
             <li className="contact-item">
               <span className="contact-label">Email</span>
-              <a 
+              <a
                 href="mailto:thehimalayandevs712@gmail.com"
                 className="contact-link"
               >
@@ -38,22 +25,8 @@ export const ContactUs = () => {
             </li>
 
             <li className="contact-item">
-              <span className="contact-label">Portfolio</span>
-              <a 
-                href="https://himalayandevsportfolio.netlify.app/"
-                className="contact-link"
-              >
-                <img
-                  src="https://seeklogo.com/images/P/portfolio-plus-banking-software-logo-8D1D8862B8-seeklogo.com.png"
-                  alt="Instagram"
-                  className="contact-icon"
-                />
-              </a>
-            </li>
-
-                 <li className="contact-item">
               <span className="contact-label">GitHub</span>
-              <a 
+              <a
                 href="https://github.com/thehimalyandevs712"
                 className="contact-link"
               >
@@ -65,24 +38,9 @@ export const ContactUs = () => {
               </a>
             </li>
 
-            
-                 <li className="contact-item">
-              <span className="contact-label">LinkedIn</span>
-              <a 
-                href="https://www.linkedin.com/in/the-himalayan-devs-264392376"
-                className="contact-link"
-              >
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/960px-LinkedIn_logo_initials.png"
-                  alt="Instagram"
-                  className="contact-icon"
-                />
-              </a>
-            </li>
-
-             <li className="contact-item">
+            <li className="contact-item">
               <span className="contact-label">Instagram</span>
-              <a 
+              <a
                 href="https://www.instagram.com/thehimalayandevs712?igsh=aXpuMHBteGpxNG1w"
                 className="contact-link"
               >
@@ -93,7 +51,48 @@ export const ContactUs = () => {
                 />
               </a>
             </li>
-           
+
+            <li className="contact-item">
+              <span className="contact-label">Portfolio</span>
+              <a
+                href="https://himalayandevsportfolio.netlify.app/"
+                className="contact-link"
+              >
+                <img
+                  src="https://seeklogo.com/images/P/portfolio-plus-banking-software-logo-8D1D8862B8-seeklogo.com.png"
+                  alt="Instagram"
+                  className="contact-icon"
+                />
+              </a>
+            </li>
+
+            <li className="contact-item">
+              <span className="contact-label">Our Website</span>
+              <a
+                href="https://thehimalayandevs.com/"
+                className="contact-link"
+              >
+                <img
+                  src="https://i.ibb.co/ynWFqg0r/Himalayan-Dev-logo.png"
+                  alt="Instagram"
+                  className="contact-icon"
+                />
+              </a>
+            </li>
+
+            <li className="contact-item">
+              <span className="contact-label">LinkedIn</span>
+              <a
+                href="https://www.linkedin.com/in/the-himalayan-devs-264392376"
+                className="contact-link"
+              >
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/960px-LinkedIn_logo_initials.png"
+                  alt="Instagram"
+                  className="contact-icon"
+                />
+              </a>
+            </li>
           </ul>
 
           <div className="contact-number">
