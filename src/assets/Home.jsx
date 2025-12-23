@@ -6,7 +6,7 @@ const Home = () => {
 
       <img
         className="logo"
-        src="https://i.ibb.co/ynWFqg0r/Himalayan-Dev-logo.png"
+        src="./HD Main Logo Circle.png"
         height="300px"
         width="300px"
         alt="Himalayan Devs"
@@ -15,7 +15,7 @@ const Home = () => {
       <section className="section home">
         <div className="MainHeading-div">
           <h1>
-            {"Hey! We are Himalayan Dev's"
+            {"Hey! We are Himalayan Devs"
               .split(" ")
               .map((word, index) => (
                 <span key={index} style={{ animationDelay: `${index * 0.3}s` }}>

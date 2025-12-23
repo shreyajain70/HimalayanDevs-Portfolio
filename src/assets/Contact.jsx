@@ -52,19 +52,6 @@ export const ContactUs = () => {
               </a>
             </li>
 
-            <li className="contact-item">
-              <span className="contact-label">Portfolio</span>
-              <a
-                href="https://himalayandevsportfolio.netlify.app/"
-                className="contact-link"
-              >
-                <img
-                  src="https://seeklogo.com/images/P/portfolio-plus-banking-software-logo-8D1D8862B8-seeklogo.com.png"
-                  alt="Instagram"
-                  className="contact-icon"
-                />
-              </a>
-            </li>
 
             <li className="contact-item">
               <span className="contact-label">Our Website</span>
